@@ -30,7 +30,7 @@ label_text = tk.Label(text=formula, font=('Roboto', 30, 'bold'), bg='black', fg=
 label_text.place(x=11, y=50)
 
 # Создание кнопки
-buttons = ['C','del','+','=','1','2','3','/','4','5','6','*','7','8','9','-','0','.','+/-', 'X^2']
+buttons = ['C','del','X^2','+/-','7','8','9','/','4','5','6','*','1', '2', '3', '-', '0','.','=', '+']
 x = 19
 y = 140
 for button in buttons:
@@ -40,14 +40,6 @@ for button in buttons:
     if x > 400:
         x = 18
         y += 81
-
-
-
-
-
-
-
-
 
 
 window.mainloop()
